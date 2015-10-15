@@ -1,0 +1,874 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A350D5C9C933D449A568106 /* libPods-DCHTrinity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EEF217FDD43DB2E31B275451 /* libPods-DCHTrinity.a */; };
+		8D502BFF1BCE321400EF71EB /* DCHTrinity.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D502BFE1BCE321400EF71EB /* DCHTrinity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D502C061BCE321400EF71EB /* DCHTrinity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D502BFB1BCE321400EF71EB /* DCHTrinity.framework */; settings = {ASSET_TAGS = (); }; };
+		8D502C0B1BCE321400EF71EB /* DCHTrinityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D502C0A1BCE321400EF71EB /* DCHTrinityTests.m */; };
+		8D502C1D1BCE322500EF71EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D502C1C1BCE322500EF71EB /* main.m */; };
+		8D502C201BCE322500EF71EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D502C1F1BCE322500EF71EB /* AppDelegate.m */; };
+		8D502C231BCE322500EF71EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D502C221BCE322500EF71EB /* ViewController.m */; };
+		8D502C261BCE322500EF71EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D502C241BCE322500EF71EB /* Main.storyboard */; };
+		8D502C281BCE322500EF71EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D502C271BCE322500EF71EB /* Assets.xcassets */; };
+		8D502C2B1BCE322500EF71EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D502C291BCE322500EF71EB /* LaunchScreen.storyboard */; };
+		8D502C361BCE322500EF71EB /* DCHTrinityDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D502C351BCE322500EF71EB /* DCHTrinityDemoTests.m */; };
+		8D502C411BCE322500EF71EB /* DCHTrinityDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D502C401BCE322500EF71EB /* DCHTrinityDemoUITests.m */; };
+		8D502C501BCE324B00EF71EB /* DCHSeparateViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D502C4E1BCE324B00EF71EB /* DCHSeparateViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D502C511BCE324B00EF71EB /* DCHSeparateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D502C4F1BCE324B00EF71EB /* DCHSeparateViewController.m */; settings = {ASSET_TAGS = (); }; };
+		8D502C521BCE357F00EF71EB /* DCHTrinity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D502BFB1BCE321400EF71EB /* DCHTrinity.framework */; };
+		8D502C551BCE45E000EF71EB /* TempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D502C541BCE45E000EF71EB /* TempViewController.m */; settings = {ASSET_TAGS = (); }; };
+		D07D9BE35CC4AF1E1EA08D11 /* libPods-DCHTrinityDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7268595F89D2EDC5B75096EC /* libPods-DCHTrinityDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D502C071BCE321400EF71EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D502BF21BCE321400EF71EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D502BFA1BCE321400EF71EB;
+			remoteInfo = DCHTrinity;
+		};
+		8D502C321BCE322500EF71EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D502BF21BCE321400EF71EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D502C181BCE322500EF71EB;
+			remoteInfo = DCHTrinityDemo;
+		};
+		8D502C3D1BCE322500EF71EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D502BF21BCE321400EF71EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D502C181BCE322500EF71EB;
+			remoteInfo = DCHTrinityDemo;
+		};
+		8D502C4C1BCE322F00EF71EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D502BF21BCE321400EF71EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D502BFA1BCE321400EF71EB;
+			remoteInfo = DCHTrinity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B6BE06252F8D9ECC5EA9AB2 /* Pods-DCHTrinityDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCHTrinityDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DCHTrinityDemo/Pods-DCHTrinityDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7268595F89D2EDC5B75096EC /* libPods-DCHTrinityDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DCHTrinityDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		744ECC97095D86D0A1736C70 /* Pods-DCHTrinityDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCHTrinityDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DCHTrinityDemo/Pods-DCHTrinityDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8D502BFB1BCE321400EF71EB /* DCHTrinity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCHTrinity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D502BFE1BCE321400EF71EB /* DCHTrinity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCHTrinity.h; sourceTree = "<group>"; };
+		8D502C001BCE321400EF71EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D502C051BCE321400EF71EB /* DCHTrinityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DCHTrinityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D502C0A1BCE321400EF71EB /* DCHTrinityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCHTrinityTests.m; sourceTree = "<group>"; };
+		8D502C0C1BCE321400EF71EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D502C191BCE322500EF71EB /* DCHTrinityDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCHTrinityDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D502C1C1BCE322500EF71EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D502C1E1BCE322500EF71EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8D502C1F1BCE322500EF71EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8D502C211BCE322500EF71EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8D502C221BCE322500EF71EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8D502C251BCE322500EF71EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D502C271BCE322500EF71EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D502C2A1BCE322500EF71EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D502C2C1BCE322500EF71EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D502C311BCE322500EF71EB /* DCHTrinityDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DCHTrinityDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D502C351BCE322500EF71EB /* DCHTrinityDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCHTrinityDemoTests.m; sourceTree = "<group>"; };
+		8D502C371BCE322500EF71EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D502C3C1BCE322500EF71EB /* DCHTrinityDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DCHTrinityDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D502C401BCE322500EF71EB /* DCHTrinityDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCHTrinityDemoUITests.m; sourceTree = "<group>"; };
+		8D502C421BCE322500EF71EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D502C4E1BCE324B00EF71EB /* DCHSeparateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCHSeparateViewController.h; sourceTree = "<group>"; };
+		8D502C4F1BCE324B00EF71EB /* DCHSeparateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCHSeparateViewController.m; sourceTree = "<group>"; };
+		8D502C531BCE45E000EF71EB /* TempViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempViewController.h; sourceTree = "<group>"; };
+		8D502C541BCE45E000EF71EB /* TempViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempViewController.m; sourceTree = "<group>"; };
+		A12CF44A396DFC05B6A10907 /* Pods-DCHTrinity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCHTrinity.release.xcconfig"; path = "Pods/Target Support Files/Pods-DCHTrinity/Pods-DCHTrinity.release.xcconfig"; sourceTree = "<group>"; };
+		AD0AE88FD4F8F46F49AD450B /* Pods-DCHTrinity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCHTrinity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DCHTrinity/Pods-DCHTrinity.debug.xcconfig"; sourceTree = "<group>"; };
+		EEF217FDD43DB2E31B275451 /* libPods-DCHTrinity.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DCHTrinity.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D502BF71BCE321400EF71EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A350D5C9C933D449A568106 /* libPods-DCHTrinity.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D502C021BCE321400EF71EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D502C061BCE321400EF71EB /* DCHTrinity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D502C161BCE322500EF71EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D502C521BCE357F00EF71EB /* DCHTrinity.framework in Frameworks */,
+				D07D9BE35CC4AF1E1EA08D11 /* libPods-DCHTrinityDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D502C2E1BCE322500EF71EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D502C391BCE322500EF71EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D502BF11BCE321400EF71EB = {
+			isa = PBXGroup;
+			children = (
+				8D502BFD1BCE321400EF71EB /* DCHTrinity */,
+				8D502C091BCE321400EF71EB /* DCHTrinityTests */,
+				8D502C1A1BCE322500EF71EB /* DCHTrinityDemo */,
+				8D502C341BCE322500EF71EB /* DCHTrinityDemoTests */,
+				8D502C3F1BCE322500EF71EB /* DCHTrinityDemoUITests */,
+				8D502BFC1BCE321400EF71EB /* Products */,
+				CC5EC02E489961329D652313 /* Pods */,
+				ECD850C6B18AC92641A98182 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8D502BFC1BCE321400EF71EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D502BFB1BCE321400EF71EB /* DCHTrinity.framework */,
+				8D502C051BCE321400EF71EB /* DCHTrinityTests.xctest */,
+				8D502C191BCE322500EF71EB /* DCHTrinityDemo.app */,
+				8D502C311BCE322500EF71EB /* DCHTrinityDemoTests.xctest */,
+				8D502C3C1BCE322500EF71EB /* DCHTrinityDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D502BFD1BCE321400EF71EB /* DCHTrinity */ = {
+			isa = PBXGroup;
+			children = (
+				8D502BFE1BCE321400EF71EB /* DCHTrinity.h */,
+				8D502C001BCE321400EF71EB /* Info.plist */,
+				8D502C4E1BCE324B00EF71EB /* DCHSeparateViewController.h */,
+				8D502C4F1BCE324B00EF71EB /* DCHSeparateViewController.m */,
+			);
+			path = DCHTrinity;
+			sourceTree = "<group>";
+		};
+		8D502C091BCE321400EF71EB /* DCHTrinityTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D502C0A1BCE321400EF71EB /* DCHTrinityTests.m */,
+				8D502C0C1BCE321400EF71EB /* Info.plist */,
+			);
+			path = DCHTrinityTests;
+			sourceTree = "<group>";
+		};
+		8D502C1A1BCE322500EF71EB /* DCHTrinityDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8D502C1E1BCE322500EF71EB /* AppDelegate.h */,
+				8D502C1F1BCE322500EF71EB /* AppDelegate.m */,
+				8D502C211BCE322500EF71EB /* ViewController.h */,
+				8D502C221BCE322500EF71EB /* ViewController.m */,
+				8D502C241BCE322500EF71EB /* Main.storyboard */,
+				8D502C271BCE322500EF71EB /* Assets.xcassets */,
+				8D502C291BCE322500EF71EB /* LaunchScreen.storyboard */,
+				8D502C2C1BCE322500EF71EB /* Info.plist */,
+				8D502C1B1BCE322500EF71EB /* Supporting Files */,
+				8D502C531BCE45E000EF71EB /* TempViewController.h */,
+				8D502C541BCE45E000EF71EB /* TempViewController.m */,
+			);
+			path = DCHTrinityDemo;
+			sourceTree = "<group>";
+		};
+		8D502C1B1BCE322500EF71EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D502C1C1BCE322500EF71EB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D502C341BCE322500EF71EB /* DCHTrinityDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D502C351BCE322500EF71EB /* DCHTrinityDemoTests.m */,
+				8D502C371BCE322500EF71EB /* Info.plist */,
+			);
+			path = DCHTrinityDemoTests;
+			sourceTree = "<group>";
+		};
+		8D502C3F1BCE322500EF71EB /* DCHTrinityDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8D502C401BCE322500EF71EB /* DCHTrinityDemoUITests.m */,
+				8D502C421BCE322500EF71EB /* Info.plist */,
+			);
+			path = DCHTrinityDemoUITests;
+			sourceTree = "<group>";
+		};
+		CC5EC02E489961329D652313 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD0AE88FD4F8F46F49AD450B /* Pods-DCHTrinity.debug.xcconfig */,
+				A12CF44A396DFC05B6A10907 /* Pods-DCHTrinity.release.xcconfig */,
+				744ECC97095D86D0A1736C70 /* Pods-DCHTrinityDemo.debug.xcconfig */,
+				2B6BE06252F8D9ECC5EA9AB2 /* Pods-DCHTrinityDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ECD850C6B18AC92641A98182 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEF217FDD43DB2E31B275451 /* libPods-DCHTrinity.a */,
+				7268595F89D2EDC5B75096EC /* libPods-DCHTrinityDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D502BF81BCE321400EF71EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D502C501BCE324B00EF71EB /* DCHSeparateViewController.h in Headers */,
+				8D502BFF1BCE321400EF71EB /* DCHTrinity.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D502BFA1BCE321400EF71EB /* DCHTrinity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D502C0F1BCE321400EF71EB /* Build configuration list for PBXNativeTarget "DCHTrinity" */;
+			buildPhases = (
+				75FF3737BB6FCB4EFAECFF0B /* Check Pods Manifest.lock */,
+				8D502BF61BCE321400EF71EB /* Sources */,
+				8D502BF71BCE321400EF71EB /* Frameworks */,
+				8D502BF81BCE321400EF71EB /* Headers */,
+				8D502BF91BCE321400EF71EB /* Resources */,
+				9A84F167EFB36B6407A2899C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DCHTrinity;
+			productName = DCHTrinity;
+			productReference = 8D502BFB1BCE321400EF71EB /* DCHTrinity.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D502C041BCE321400EF71EB /* DCHTrinityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D502C121BCE321400EF71EB /* Build configuration list for PBXNativeTarget "DCHTrinityTests" */;
+			buildPhases = (
+				8D502C011BCE321400EF71EB /* Sources */,
+				8D502C021BCE321400EF71EB /* Frameworks */,
+				8D502C031BCE321400EF71EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D502C081BCE321400EF71EB /* PBXTargetDependency */,
+			);
+			name = DCHTrinityTests;
+			productName = DCHTrinityTests;
+			productReference = 8D502C051BCE321400EF71EB /* DCHTrinityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8D502C181BCE322500EF71EB /* DCHTrinityDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D502C431BCE322500EF71EB /* Build configuration list for PBXNativeTarget "DCHTrinityDemo" */;
+			buildPhases = (
+				732959FB30AD479C8164D86D /* Check Pods Manifest.lock */,
+				8D502C151BCE322500EF71EB /* Sources */,
+				8D502C161BCE322500EF71EB /* Frameworks */,
+				8D502C171BCE322500EF71EB /* Resources */,
+				8B966F09C47A643A8E86F575 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D502C4D1BCE322F00EF71EB /* PBXTargetDependency */,
+			);
+			name = DCHTrinityDemo;
+			productName = DCHTrinityDemo;
+			productReference = 8D502C191BCE322500EF71EB /* DCHTrinityDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D502C301BCE322500EF71EB /* DCHTrinityDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D502C461BCE322500EF71EB /* Build configuration list for PBXNativeTarget "DCHTrinityDemoTests" */;
+			buildPhases = (
+				8D502C2D1BCE322500EF71EB /* Sources */,
+				8D502C2E1BCE322500EF71EB /* Frameworks */,
+				8D502C2F1BCE322500EF71EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D502C331BCE322500EF71EB /* PBXTargetDependency */,
+			);
+			name = DCHTrinityDemoTests;
+			productName = DCHTrinityDemoTests;
+			productReference = 8D502C311BCE322500EF71EB /* DCHTrinityDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8D502C3B1BCE322500EF71EB /* DCHTrinityDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D502C491BCE322500EF71EB /* Build configuration list for PBXNativeTarget "DCHTrinityDemoUITests" */;
+			buildPhases = (
+				8D502C381BCE322500EF71EB /* Sources */,
+				8D502C391BCE322500EF71EB /* Frameworks */,
+				8D502C3A1BCE322500EF71EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D502C3E1BCE322500EF71EB /* PBXTargetDependency */,
+			);
+			name = DCHTrinityDemoUITests;
+			productName = DCHTrinityDemoUITests;
+			productReference = 8D502C3C1BCE322500EF71EB /* DCHTrinityDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D502BF21BCE321400EF71EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = ChenXL;
+				TargetAttributes = {
+					8D502BFA1BCE321400EF71EB = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					8D502C041BCE321400EF71EB = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					8D502C181BCE322500EF71EB = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					8D502C301BCE322500EF71EB = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 8D502C181BCE322500EF71EB;
+					};
+					8D502C3B1BCE322500EF71EB = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 8D502C181BCE322500EF71EB;
+					};
+				};
+			};
+			buildConfigurationList = 8D502BF51BCE321400EF71EB /* Build configuration list for PBXProject "DCHTrinity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D502BF11BCE321400EF71EB;
+			productRefGroup = 8D502BFC1BCE321400EF71EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D502BFA1BCE321400EF71EB /* DCHTrinity */,
+				8D502C041BCE321400EF71EB /* DCHTrinityTests */,
+				8D502C181BCE322500EF71EB /* DCHTrinityDemo */,
+				8D502C301BCE322500EF71EB /* DCHTrinityDemoTests */,
+				8D502C3B1BCE322500EF71EB /* DCHTrinityDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D502BF91BCE321400EF71EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D502C031BCE321400EF71EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D502C171BCE322500EF71EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D502C2B1BCE322500EF71EB /* LaunchScreen.storyboard in Resources */,
+				8D502C281BCE322500EF71EB /* Assets.xcassets in Resources */,
+				8D502C261BCE322500EF71EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D502C2F1BCE322500EF71EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D502C3A1BCE322500EF71EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		732959FB30AD479C8164D86D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		75FF3737BB6FCB4EFAECFF0B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8B966F09C47A643A8E86F575 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DCHTrinityDemo/Pods-DCHTrinityDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A84F167EFB36B6407A2899C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DCHTrinity/Pods-DCHTrinity-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D502BF61BCE321400EF71EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D502C511BCE324B00EF71EB /* DCHSeparateViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D502C011BCE321400EF71EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D502C0B1BCE321400EF71EB /* DCHTrinityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D502C151BCE322500EF71EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D502C551BCE45E000EF71EB /* TempViewController.m in Sources */,
+				8D502C231BCE322500EF71EB /* ViewController.m in Sources */,
+				8D502C201BCE322500EF71EB /* AppDelegate.m in Sources */,
+				8D502C1D1BCE322500EF71EB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D502C2D1BCE322500EF71EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D502C361BCE322500EF71EB /* DCHTrinityDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D502C381BCE322500EF71EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D502C411BCE322500EF71EB /* DCHTrinityDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D502C081BCE321400EF71EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D502BFA1BCE321400EF71EB /* DCHTrinity */;
+			targetProxy = 8D502C071BCE321400EF71EB /* PBXContainerItemProxy */;
+		};
+		8D502C331BCE322500EF71EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D502C181BCE322500EF71EB /* DCHTrinityDemo */;
+			targetProxy = 8D502C321BCE322500EF71EB /* PBXContainerItemProxy */;
+		};
+		8D502C3E1BCE322500EF71EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D502C181BCE322500EF71EB /* DCHTrinityDemo */;
+			targetProxy = 8D502C3D1BCE322500EF71EB /* PBXContainerItemProxy */;
+		};
+		8D502C4D1BCE322F00EF71EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D502BFA1BCE321400EF71EB /* DCHTrinity */;
+			targetProxy = 8D502C4C1BCE322F00EF71EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D502C241BCE322500EF71EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D502C251BCE322500EF71EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D502C291BCE322500EF71EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D502C2A1BCE322500EF71EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D502C0D1BCE321400EF71EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D502C0E1BCE321400EF71EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D502C101BCE321400EF71EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD0AE88FD4F8F46F49AD450B /* Pods-DCHTrinity.debug.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DCHTrinity/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icloud.seraphcxl.DCHTrinity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8D502C111BCE321400EF71EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A12CF44A396DFC05B6A10907 /* Pods-DCHTrinity.release.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DCHTrinity/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icloud.seraphcxl.DCHTrinity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8D502C131BCE321400EF71EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DCHTrinityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icloud.seraphcxl.DCHTrinityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8D502C141BCE321400EF71EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DCHTrinityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icloud.seraphcxl.DCHTrinityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8D502C441BCE322500EF71EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 744ECC97095D86D0A1736C70 /* Pods-DCHTrinityDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DCHTrinityDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icloud.seraphcxl.DCHTrinityDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8D502C451BCE322500EF71EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B6BE06252F8D9ECC5EA9AB2 /* Pods-DCHTrinityDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DCHTrinityDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icloud.seraphcxl.DCHTrinityDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8D502C471BCE322500EF71EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DCHTrinityDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icloud.seraphcxl.DCHTrinityDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DCHTrinityDemo.app/DCHTrinityDemo";
+			};
+			name = Debug;
+		};
+		8D502C481BCE322500EF71EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DCHTrinityDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icloud.seraphcxl.DCHTrinityDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DCHTrinityDemo.app/DCHTrinityDemo";
+			};
+			name = Release;
+		};
+		8D502C4A1BCE322500EF71EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DCHTrinityDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icloud.seraphcxl.DCHTrinityDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DCHTrinityDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8D502C4B1BCE322500EF71EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DCHTrinityDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icloud.seraphcxl.DCHTrinityDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DCHTrinityDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D502BF51BCE321400EF71EB /* Build configuration list for PBXProject "DCHTrinity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D502C0D1BCE321400EF71EB /* Debug */,
+				8D502C0E1BCE321400EF71EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D502C0F1BCE321400EF71EB /* Build configuration list for PBXNativeTarget "DCHTrinity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D502C101BCE321400EF71EB /* Debug */,
+				8D502C111BCE321400EF71EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D502C121BCE321400EF71EB /* Build configuration list for PBXNativeTarget "DCHTrinityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D502C131BCE321400EF71EB /* Debug */,
+				8D502C141BCE321400EF71EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D502C431BCE322500EF71EB /* Build configuration list for PBXNativeTarget "DCHTrinityDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D502C441BCE322500EF71EB /* Debug */,
+				8D502C451BCE322500EF71EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D502C461BCE322500EF71EB /* Build configuration list for PBXNativeTarget "DCHTrinityDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D502C471BCE322500EF71EB /* Debug */,
+				8D502C481BCE322500EF71EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D502C491BCE322500EF71EB /* Build configuration list for PBXNativeTarget "DCHTrinityDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D502C4A1BCE322500EF71EB /* Debug */,
+				8D502C4B1BCE322500EF71EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D502BF21BCE321400EF71EB /* Project object */;
+}
